@@ -1,0 +1,45 @@
+html {
+    background-color: rgb(190, 228, 215);
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/*
+Style your About Me page using CSS. 
+Your styling should demonstrate your understanding of the Box Model. 
+You should use a flexbox on your list of hobbies or favorite things 
+to list them horizontally instead of vertically. 
+Upload your changes to GitHub and merge to your main branch
+
+*/
+h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+.pContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pContainer p{
+    font-size: 1.5vw;
+    text-align: center;
+    width: 60vw;
+}
+
+.listContainer nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listContainer nav ul li {
+    font-size: 1vw;
+}
+
+.imageP {
+    display: block;
+    margin: auto;
+    height: 25vw;
+}
