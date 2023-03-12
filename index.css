@@ -43,3 +43,8 @@ h1 {
     margin: auto;
     height: 25vw;
 }
+
+.btnCont{
+    padding-top: 3vh;
+    text-align: center;
+}
