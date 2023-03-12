@@ -1,7 +1,9 @@
 
 let listItems = document.querySelector('.divAddList');
 let arrayItems = [];
+let alertBtn = document.querySelector('.alertButton');
 
+alertBtn.addEventListener('click', alertFunction);
 
 function addItem(){
     let li = document.createElement('p');
@@ -16,4 +18,3 @@ function alertFunction(){
 }
 
 addItem();
-alertFunction();
